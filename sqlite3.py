@@ -1,3 +1,3 @@
+import json
 
-import sqlite3
-con = 
+response = requests.get("https://randomuser.me/api/?results=20")
